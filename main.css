@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 18px;
+  font-size-adjust: inherit;
+  margin: 0;
+}
+h1 {
+  font-size: 60px;
+}
+header {
+  padding: 60px;
+  text-align: center;
+  background-color: rgb(13, 114, 58);
+  color: whitesmoke;
+}
+.image {
+  border: 5px groove;
+  margin: 30px;
+  width: 250px;
+}
+h2 h3 {
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(22, 167, 63);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  }
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+p {
+  text-align: center;
+}
+nav a:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(199, 245, 187);
+}
+.heather {
+  width: 300px;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+aside {
+  flex: 1;
+  background-color: rgb(22, 167, 63)c;
+  padding: 10px;
+  flex-direction: center;
+}
+article {
+  padding: 10px;
+}
+section {
+  flex: 4;
+  padding: 20px;
+}
+.turn {
+  padding: 15px;
+}
+.books {
+  background-color: rgb(70, 180, 98);
+  height: 95%;
+  margin: 5px 0;
+}
+
+.potential {
+  padding: 15px;
+}
+
+.happyhours {
+  padding: 15px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #aaa;
+}
+
+@media screen and (max-width: 600px){
+  main, nav {
+    flex-direction: column;
+  }
+}
